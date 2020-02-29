@@ -1,0 +1,39 @@
+.nav-bar {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: flex-end;
+  border-bottom-style: ridge;
+  border-bottom-width: 2px;
+}
+.intro {
+  background-color: rgb(143, 129, 129,0.3) ;
+  
+}
+.intro p{
+    font-family: 'Kaushan Script';
+    text-align: center;
+    color: darkred;
+    padding: 200px;
+}
+#introText{
+    font-size:20px;
+    direction: rtl;
+}
+.intro #begin{
+    border-width: 1px;
+}
+
+.nav-bar-link a:hover {
+  color: #000101;
+
+}
+.nav-bar-link a {
+  transition: ease;
+  text-decoration: none;
+}
+.nav-bar-link a img:hover {
+  border-bottom: 3px solid black;
+}
+body{
+    overflow-x: hidden;
+}
