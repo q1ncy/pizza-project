@@ -6,26 +6,29 @@
   border-bottom-width: 2px;
 }
 .intro {
-  background-color: rgb(143, 129, 129,0.3) ;
-  
+  background-image: url(../images/eat.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: dimgray;
+  height: 90vh;
 }
-.intro p{
-    font-family: 'Kaushan Script';
-    text-align: center;
-    color: darkred;
-    padding: 200px;
+.intro p {
+  font-family: "Kaushan Script";
+  text-align: center;
+  color: rgb(250, 225, 4);
+  padding: 200px;
+  font-size: 30px;
 }
-#introText{
-    font-size:20px;
-    direction: rtl;
+#introText {
+  font-size: 20rem;
+  direction: rtl;
 }
-.intro #begin{
-    border-width: 1px;
+.intro #begin {
+  border-width: 1px;
 }
 
 .nav-bar-link a:hover {
   color: #000101;
-
 }
 .nav-bar-link a {
   transition: ease;
@@ -34,6 +37,9 @@
 .nav-bar-link a img:hover {
   border-bottom: 3px solid black;
 }
-body{
-    overflow-x: hidden;
+body {
+  overflow-x: hidden;
+}
+html{
+    scroll-behavior: smooth;
 }

@@ -17,6 +17,7 @@
         href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap"
         rel="stylesheet"
       />
+<!--intro text -->
     <div class="nav-bar" style="padding: 10px;">
         <img src="images/pp.png" style="height: 50px;">
        <div class="nav-bar-link" style="padding: 10px;">
@@ -29,18 +30,20 @@
          </div>
     </div>
     <div class="intro" style="padding: px;">
-       <p id="introText"><strong>PIZZA PALACE</strong>
-      <br><span style="color: black;font-style: italic;word-spacing: 10px;">eat what you want</span>
+       <p ><strong>PIZZA PALACE</strong>
+      <br><span style="color: rgba(175, 13, 13, 0.685);font-style: italic;word-spacing: 10px;">get what you crEATe</span>
       <br><br><br><br><br>
-      <button id="begin" style="padding: 20px;">click To Begin customization</button></p>
+      <button style="padding: 20px;"><a href="#begin" style="text-decoration: none;"> To Begin customization</a></button></p>
         
     </div>
 <!--customization page-->
-    <div class="container">
-      <div class="card">
+<div class="container">
+  <section id="begin">
+<!--pizza size-->
+   <div class="card" style="margin: 20px;">
         <div class="card-body">
           <h1>Choose Pizza Size</h1>
-          <div class="sizes" style="padding: 0px 60px;">
+          <div class="sizes">
               <input type="radio" id="extraLarge" value="extraLarge" />
               <label for="extraLarge">extraLarge</label><br />
               <input type="radio" id="large" value="large" />
@@ -56,9 +59,25 @@
                 <button>confirm</button>
             </div>
         </div>
+  </div>
+<!--crust type-->
+      <div class="card" >
+        <div class="card-body">
+          <h1>Choose crust type</h1>
+          <input type="radio" id="extraLarge" value="extraLarge" />
+          <label for="extraLarge">extraLarge</label><br />
+          <input type="radio" id="large" value="large" />
+          <label for="large">Large</label><br />
+          <input type="radio" id="medium" value="medium" />
+          <label for="medium">Medium</label><br />
+          <input type="radio" id="small" value="small" />
+          <label for="small">Small</label><br />
+          <input type="radio" id="extraSmall" value="extraSmall" />
+          <label for="extraSmall">extraSmall</label>
+        </div>
       </div>
-     
-      </div>
+    </section>
+ </div>
       
     </div>
   </body>
