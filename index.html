@@ -36,7 +36,7 @@
           >get what you crEATe</span
         >
         <br /><br /><br /><br /><br />
-        <button style="padding: 20px; background-color: rgba(233, 85, 85, 0.486);">
+        <button style="padding: 20px; background-color: rgba(233, 85, 85, 0.486);" id="entry">
           <a href="#begin" style="text-decoration: none;">
             Click To Begin customization</a
           >
@@ -45,7 +45,7 @@
     </div>
     <!--customization page-->
     <div class="container">
-      <section id="begin">
+      <section id="begin" style="height: 120vh;">
         <!--pizza size-->
         <div class="card" style="margin: 20px;">
           <div class="card-body">
@@ -63,11 +63,12 @@
               <label for="extraSmall">extraSmall</label>
             </div>
             <div class="trial" style="text-align: center;">
-              <button>confirm</button>
+              <button id="clickOne">confirm</button>
             </div>
           </div>
         </div>
         <!--crust type-->
+      <div class="card-one" style="display: none;">
         <div class="card" style="margin: 20px;">
           <div class="card-body">
             <h1>Choose crust type</h1>
@@ -79,27 +80,30 @@
             <label for="gluten-free">gluten Free</label><br />
           </div>
           <div class="crust-button" style="text-align: center;">
-            <button>confirm</button>
+            <button id="clickTwo">confirm</button>
           </div>
           <br />
         </div>
+      </div>
         <!--toppings-->
-        <div class="card" style="margin: 20px;">
-          <div class="card-body">
-            <h1>What toppings would you like??</h1>
-            <input type="radio" id="peperoni" value="peperoni" />
-            <label for="peperoni">peperoni</label><br />
-            <input type="radio" id="bbq" value="bbq" />
-            <label for="bbq">BBQ steak & mushroom</label><br />
-            <input type="radio" id="hawaiian" value="hawaiian" />
-            <label for="hawaiian">pineapple</label><br />
-            <input type="radio" id="veggie" value="veggie" />
-            <label for="veggie">vegetables</label><br />
+        <div class="card-two" style="display: none;">
+          <div class="card" style="margin: 20px;">
+            <div class="card-body">
+              <h1>What toppings would you like??</h1>
+              <input type="radio" id="peperoni" value="peperoni" />
+              <label for="peperoni">peperoni</label><br />
+              <input type="radio" id="bbq" value="bbq" />
+              <label for="bbq">BBQ steak & mushroom</label><br />
+              <input type="radio" id="hawaiian" value="hawaiian" />
+              <label for="hawaiian">pineapple</label><br />
+              <input type="radio" id="veggie" value="veggie" />
+              <label for="veggie">vegetables</label><br />
+            </div>
+            <div class="toppings-button" style="text-align: center;">
+              <button id="clickThree">confirm</button>
+            </div>
+            <br />
           </div>
-          <div class="toppings-button" style="text-align: center;">
-            <button>confirm</button>
-          </div>
-          <br />
         </div>
       </section>
     </div>
@@ -119,6 +123,6 @@
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
       crossorigin="anonymous"
     ></script>
-    <script src="js/script.js"></script>
+    <script src="js/sign.js"></script>
   </body>
 </html>
