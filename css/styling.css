@@ -43,3 +43,9 @@ body {
 html{
     scroll-behavior: smooth;
 }
+.contact{
+    background-image: url(../images/reachus.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+}

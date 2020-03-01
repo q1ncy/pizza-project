@@ -14,36 +14,43 @@
   </head>
   <body>
     <link
-        href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap"
-        rel="stylesheet"
-      />
-<!--intro text -->
+      href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap"
+      rel="stylesheet"
+    />
+    <!--intro text -->
     <div class="nav-bar" style="padding: 10px;">
-        <img src="images/pp.png" style="height: 50px;">
-       <div class="nav-bar-link" style="padding: 10px;">
-        <a href="about.html">Sign in</a>
-        </div>
-         <div class="nav-bar-link">
-            <a href="shop.html">
+      <img src="images/pp.png" style="height: 50px;" />
+      <div class="nav-bar-link" style="padding: 10px;">
+        <a href="signIn.html">Sign in</a>
+      </div>
+      <div class="nav-bar-link">
+        <a href="cart.html">
           <img src="images/kart.png" style="height: 40px;" />
-        </a>    
-         </div>
+        </a>
+      </div>
     </div>
     <div class="intro" style="padding: px;">
-       <p ><strong>PIZZA PALACE</strong>
-      <br><span style="color: rgba(175, 13, 13, 0.685);font-style: italic;word-spacing: 10px;">get what you crEATe</span>
-      <br><br><br><br><br>
-      <button style="padding: 20px;"><a href="#begin" style="text-decoration: none;"> To Begin customization</a></button></p>
-        
+      <p>
+        <strong>PIZZA PALACE</strong> <br /><span
+          style="color: rgba(175, 13, 13, 0.685);font-style: italic;word-spacing: 10px;"
+          >get what you crEATe</span
+        >
+        <br /><br /><br /><br /><br />
+        <button style="padding: 20px; background-color: rgba(233, 85, 85, 0.486);">
+          <a href="#begin" style="text-decoration: none;">
+            Click To Begin customization</a
+          >
+        </button>
+      </p>
     </div>
-<!--customization page-->
-<div class="container">
-  <section id="begin">
-<!--pizza size-->
-   <div class="card" style="margin: 20px;">
-        <div class="card-body">
-          <h1>Choose Pizza Size</h1>
-          <div class="sizes">
+    <!--customization page-->
+    <div class="container">
+      <section id="begin">
+        <!--pizza size-->
+        <div class="card" style="margin: 20px;">
+          <div class="card-body">
+            <h1>Choose Pizza Size</h1>
+            <div class="sizes">
               <input type="radio" id="extraLarge" value="extraLarge" />
               <label for="extraLarge">extraLarge</label><br />
               <input type="radio" id="large" value="large" />
@@ -54,31 +61,64 @@
               <label for="small">Small</label><br />
               <input type="radio" id="extraSmall" value="extraSmall" />
               <label for="extraSmall">extraSmall</label>
-          </div>
-            <div class="trial" style="text-align: center;">
-                <button>confirm</button>
             </div>
+            <div class="trial" style="text-align: center;">
+              <button>confirm</button>
+            </div>
+          </div>
         </div>
-  </div>
-<!--crust type-->
-      <div class="card" >
-        <div class="card-body">
-          <h1>Choose crust type</h1>
-          <input type="radio" id="extraLarge" value="extraLarge" />
-          <label for="extraLarge">extraLarge</label><br />
-          <input type="radio" id="large" value="large" />
-          <label for="large">Large</label><br />
-          <input type="radio" id="medium" value="medium" />
-          <label for="medium">Medium</label><br />
-          <input type="radio" id="small" value="small" />
-          <label for="small">Small</label><br />
-          <input type="radio" id="extraSmall" value="extraSmall" />
-          <label for="extraSmall">extraSmall</label>
+        <!--crust type-->
+        <div class="card" style="margin: 20px;">
+          <div class="card-body">
+            <h1>Choose crust type</h1>
+            <input type="radio" id="crispy" value="crispy" />
+            <label for="crispy">crispy Crust</label><br />
+            <input type="radio" id="stuffed" value="stuffed" />
+            <label for="stuffed">stuffed Crust</label><br />
+            <input type="radio" id="gluten-free" value="gluten-fee" />
+            <label for="gluten-free">gluten Free</label><br />
+          </div>
+          <div class="crust-button" style="text-align: center;">
+            <button>confirm</button>
+          </div>
+          <br />
         </div>
-      </div>
-    </section>
- </div>
-      
+        <!--toppings-->
+        <div class="card" style="margin: 20px;">
+          <div class="card-body">
+            <h1>What toppings would you like??</h1>
+            <input type="radio" id="peperoni" value="peperoni" />
+            <label for="peperoni">peperoni</label><br />
+            <input type="radio" id="bbq" value="bbq" />
+            <label for="bbq">BBQ steak & mushroom</label><br />
+            <input type="radio" id="hawaiian" value="hawaiian" />
+            <label for="hawaiian">pineapple</label><br />
+            <input type="radio" id="veggie" value="veggie" />
+            <label for="veggie">vegetables</label><br />
+          </div>
+          <div class="toppings-button" style="text-align: center;">
+            <button>confirm</button>
+          </div>
+          <br />
+        </div>
+      </section>
     </div>
+<!--customer support-->
+<div class="contact" >
+  <h2 style="text-align: center; padding: 10px;">Contact Us</h2>
+    <br> <p style="text-align: center;font-size: 20px ;">email:
+        <a href="#">qbarnabas@gmail.com</a>
+       <br>Hotline: 020 8979 7881
+     </p>
+     <div class="icons" style="display: flex;justify-content: space-evenly;padding: 80px 0px 0px 0px;">
+         <img src="images/twitter.png"><img src="images/you_tube.png"><img src="images/facebook.png"><img src="images/flickr.png">
+    </div>
+</div>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
