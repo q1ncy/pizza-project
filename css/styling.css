@@ -49,3 +49,13 @@ html{
     background-size: cover;
     height: 40vh;
 }
+body{
+    background-image: url(../images/col.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 90vh;
+    background-size: cover;
+}
+.card{
+    background-color: rgba(243, 149, 149, 0.705);
+}
