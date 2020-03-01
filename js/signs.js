@@ -29,3 +29,15 @@ $("button#clickTwo").click(function(){
 $("button#clickThree").click(function(){
     alert("your customization has been added to cart!")
 })
+//adding order to cart
+var pizzaType = {
+
+}
+//delivery option
+$("#deliver").click(function(){
+    var deliveryPoint = prompt("enter delivery location");
+
+    alert("your pizza will be delivered to " + deliveryPoint)
+
+
+})
