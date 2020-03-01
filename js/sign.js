@@ -24,3 +24,8 @@ $("button#clickOne").click(function(){
 $("button#clickTwo").click(function(){
     $(".card-two").fadeIn()
 })
+
+//confirm items
+$("button#clickThree").click(function(){
+    alert("your customization has been added to cart!")
+})
