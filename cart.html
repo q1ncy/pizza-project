@@ -1,24 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-    href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    rel="stylesheet"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-    crossorigin="anonymous"
-  />
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
     <title>PP store</title>
-</head>
-<body>
-    
-    
-</body>
-<script
-src="https://code.jquery.com/jquery-3.4.1.min.js"
-integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-crossorigin="anonymous"
-></script>
-<script src="js/sign.js"></script>
+  </head>
+  <body>
+    <div class="container" style="margin: 20px;">
+    <!--Intr jumbotron-->
+        <div class="jumbotron">
+            <h1>Your Order Is Almost complete</h1>
+            <p>Just a few steps to complete:</p>
+        </div>
+    <!--order section-->
+      <p style="line-height: 6px;">Enter no. of orders to be placed</p>
+      <input type="number" id="orders" />
+      <p>Do you want you pizza delivered?</p>
+       <select id="delivery" style="display: inline;">
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+      </select>
+      
+    </div>
+  </body>
+  <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"
+  ></script>
+  <script src="js/sign.js"></script>
 </html>
