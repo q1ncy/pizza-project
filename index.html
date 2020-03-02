@@ -57,15 +57,15 @@
               <div class="row">
                 <div class="col-md-6">
                   <h1>sizes</h1>
-                  <input type="radio" id="extraLarge" value="extraLarge" />
+                  <input type="radio" id="extraLarge" value="extraLarge" name="sizes"/>
                   <label for="extraLarge">extraLarge</label><br />
-                  <input type="radio" id="large" value="large" />
+                  <input type="radio" id="large" value="large" name="sizes" />
                   <label for="large">Large</label><br />
-                  <input type="radio" id="medium" value="medium" />
+                  <input type="radio" id="medium" value="medium" name="sizes" />
                   <label for="medium">Medium</label><br />
-                  <input type="radio" id="small" value="small" />
+                  <input type="radio" id="small" value="small" name="sizes"/>
                   <label for="small">Small</label><br />
-                  <input type="radio" id="extraSmall" value="extraSmall" />
+                  <input type="radio" id="extraSmall" value="extraSmall" name="sizes"/>
                   <label for="extraSmall">extraSmall</label>
                 </div>
                 <div class="col-md-6">
@@ -89,11 +89,11 @@
               <div class="row">
                 <div class="col-md-6">
                   <h2>Type</h2>
-                  <input type="radio" id="crispy" value="crispy" />
+                  <input type="radio" id="crispy" value="crispy-crust" name="types" />
                   <label for="crispy">crispy Crust</label><br />
-                  <input type="radio" id="stuffed" value="stuffed" />
+                  <input type="radio" id="stuffed crust" value="stuffed-crust" name="types"/>
                   <label for="stuffed">stuffed Crust</label><br />
-                  <input type="radio" id="gluten-free" value="gluten-fee" />
+                  <input type="radio" id="gluten-free" value="gluten-free-crust" name="types"/>
                   <label for="gluten-free">gluten Free</label><br />
                 </div>
                 <div class="col-md-6">
@@ -118,19 +118,21 @@
               <div class="row">
                 <div class="col-md-6">
                   <h2>Toppings</h2>
-                  <input type="radio" id="peperoni" value="peperoni" />
-                  <label for="peperoni">peperoni</label><br />
-                  <input type="radio" id="bbq" value="bbq" />
-                  <label for="bbq">BBQ steak & mushroom</label><br />
-                  <input type="radio" id="hawaiian" value="hawaiian" />
-                  <label for="hawaiian">pineapple</label><br />
-                  <input type="radio" id="veggie" value="veggie" />
-                  <label for="veggie">vegetables</label><br />
+                  <div id=tops>
+                    <input type="radio" id="peperoni" value="peperoni" name="toppings"/>
+                    <label for="peperoni">peperoni</label><br />
+                    <input type="radio" id="bbq" value="BBQ steak & mushroom" name="toppings" />
+                    <label for="bbq">BBQ steak & mushroom</label><br />
+                    <input type="radio" id="hawaiian" value="pineapple" name="toppings" />
+                    <label for="hawaiian">pineapple</label><br />
+                    <input type="radio" id="veggie" value="vegetables" name="toppings" />
+                    <label for="veggie">vegetables</label><br />
+                  </div>
                 </div>
                 <div class="col-md-6">
                   <h2>Prices(ksh)</h2>
                   <div class="topping-price">
-                    <p>50<br />50<br />50<br />50</p>
+                    <p>50<br />50<br />50<br />50<br>50</p>
                   </div>
                 </div>
               </div>
@@ -166,6 +168,6 @@
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
       crossorigin="anonymous"
     ></script>
-    <script src="js/sign.js"></script>
+    <script src="js/signs.js"></script>
   </body>
 </html>

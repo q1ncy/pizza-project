@@ -20,15 +20,26 @@
             <p>Just a few steps to complete:</p>
         </div>
     <!--order section-->
-    <p style="line-height: 6px;">Enter no. of orders to be placed</p>
-    <input type="number" id="orders" />
-      <button id="placeOrder" style="text-align: center;">Place Order</button>
-        <p>Do you want you pizza delivered?</p>
-        <select id="delivery" style="display: inline;">
-            <option value="yes">Yes</option>
-            <option value="no">No</option>
-        </select>
-    <p>if not <a href="#" id="deliver">click here</a> to specify delivery point</p>
+    <div class="row">
+      <div class="col-lg-6">
+          <p style="line-height: 6px;">Enter no. of orders to be placed</p>
+          <input type="number" id="orders" />
+            <button id="placeOrder" style="text-align: center;">Place Order</button>
+              <p>Do you want you pizza delivered?</p>
+              <select id="delivery" style="display: inline;">
+                  <option value="yes">Yes</option>
+                  <option value="no">No</option>
+              </select>
+          <p>if not <a href="#" id="deliver">click here</a> to specify delivery point</p>
+      </div>
+        <div class="col-lg-6">
+          <div class="order-made">
+            <ul id="listing">
+              
+            </ul>
+          </div>
+        </div>
+    </div>
     </div>
 
     <script
