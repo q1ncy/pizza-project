@@ -15,7 +15,7 @@
 - HTML ; the site is scripted using hyper text markup 5
 - css & bootstrap; visual stylings made to this page are as a courtesy of bootstrap 3.4.1 with a little of css stylings put to work
 
-### Dependencies
+
 
 #### Setup & installation
 
