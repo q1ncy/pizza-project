@@ -51,9 +51,7 @@ $("button#clickThree").click(
     var type = $("input[name='types']:checked").val()
    
         var order = "delivery for " + size + " pizza with " +type + " and " + topping + " topping(s)"
-        console.log(order)  
+        alert(order)  
     
 })
-$("button#show-order").click(function(){
-    alert(order)
-})
+
