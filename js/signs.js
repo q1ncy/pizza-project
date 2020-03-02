@@ -11,9 +11,10 @@ $("button#signIn").click(function() {
     }
   }
   signUp();
-}); //correct
+}); 
+
 $("button#entry").click(function() {
-  if (details === [" ", " "]) {
+  if (details == [" ", " "]) {
     alert("please sign up first");
   }
 });
@@ -31,7 +32,7 @@ $("button#clickThree").click(function() {
   alert("your customization has been added to cart!");
 });
 //adding order to cart
-var pizzaType = {};
+
 //delivery option
 $("#deliver").click(function() {
   var deliveryPoint = prompt("enter delivery location");
