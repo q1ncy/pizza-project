@@ -20,7 +20,7 @@
 #### Setup & installation
 
 Our setup include a user-friendly technology meant to be deciphered by anyone regardless of their technological background.To log in to our site you can simply click on the link bellow;
-[Pizza Palace](https://q1ncy.github.io/pizza-project/)
+- [Pizza Palace](https://q1ncy.github.io/pizza-project/)
 
 ## contact us
 
