@@ -1,0 +1,11 @@
+body{
+    background-image:url(../images/shop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+p{
+    color: silver;
+}
+.jumbotron{
+    background: rgba(243, 194, 194, 0.664);
+}
