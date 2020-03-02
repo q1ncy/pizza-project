@@ -54,4 +54,6 @@ $("button#clickThree").click(
         alert(order)  
     
 })
-
+//price calculation
+var total = 0
+if 
