@@ -9,7 +9,7 @@
   background-image: url(../images/eat.jpeg);
   background-repeat: no-repeat;
   background-position: center;
-  background-color: dimgray;
+  background-color: rgb(223, 201, 79);
   height: 90vh;
 }
 .intro p {

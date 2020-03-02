@@ -13,10 +13,11 @@ $("button#signIn").click(function(){
     signUp()
 })//correct
 $("button#entry").click(function(){
-    if (details==[" ", " "]){
+    if (details===[" ", " "]){
         alert("please sign up first")
     }
 })//correct
+
 //display choice options
 $("button#clickOne").click(function(){
     $(".card-one").fadeIn();
@@ -41,15 +42,18 @@ $("#deliver").click(function(){
 
 })
 //get choices made
-$("button#clickThree").click(function(){
+$("button#clickThree").click(
+    function(){
     var topping = $("input[name='toppings']:checked").val()
     
     var size = $("input[name='sizes']:checked").val()
     
     var type = $("input[name='types']:checked").val()
    
-        var order = "delivery for " + size + " pizza with " +type + " and " + topping + "topping(s)"
-        console.log(order)
-        $(".order-made,ul#listing").append("<li>"+ order + "</li>")
+        var order = "delivery for " + size + " pizza with " +type + " and " + topping + " topping(s)"
+        console.log(order)  
     
+})
+$("button#show-order").click(function(){
+    alert(order)
 })
