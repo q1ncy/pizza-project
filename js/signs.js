@@ -16,7 +16,7 @@ $("button#entry").click(function(){
     if (details===[" ", " "]){
         alert("please sign up first")
     }
-})//correct
+})
 
 //display choice options
 $("button#clickOne").click(function(){
@@ -54,6 +54,4 @@ $("button#clickThree").click(
         alert(order)  
     
 })
-//price calculation
-var total = 0
-if 
+ 
